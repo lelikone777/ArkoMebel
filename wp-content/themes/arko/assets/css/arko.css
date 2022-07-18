@@ -45,6 +45,10 @@ header .header__top {
   border-bottom: 1px solid #E0E0E0;
   padding: 5px 0 12px;
 }
+header .header__top-left_menu {
+  display: flex;
+  justify-content: space-between;
+}
 header .header__top-item:not(:last-child) {
   margin-right: 38px;
 }
@@ -147,10 +151,11 @@ header .header__bottom {
   background: #A8D1E7;
 }
 header .header__bottom-menu {
-  width: 100%;
+  width: 87%;
 }
 header .header__bottom-item {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   width: 100%;

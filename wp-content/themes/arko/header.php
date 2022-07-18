@@ -25,14 +25,26 @@
                     Ростов
                     <i class="fa-solid fa-angle-down"></i>
                 </li>
-                <li class="header__top-item"><a href="#" class="header__top-link">Акции</a></li>
-                <li class="header__top-item"><a href="#" class="header__top-link">Сборка</a></li>
-                <li class="header__top-item"><a href="#" class="header__top-link">Оплата</a></li>
-                <li class="header__top-item"><a href="#" class="header__top-link">Доставка</a></li>
+                <?php
+                wp_nav_menu( [
+	                'theme_location'  => 'header__top-left_menu',
+	                'menu'            => '',
+	                'container'       => false,
+	                'fallback_cb'     => 'wp_page_menu',
+	                'items_wrap'      => '%3$s',
+                ] );
+                ?>
             </ul>
             <ul class="header__top-right">
-                <li class="header__top-item"><a href="#" class="header__top-link">Наши работы</a></li>
-                <li class="header__top-item"><a href="#" class="header__top-link">Контакты</a></li>
+	            <?php
+	            wp_nav_menu( [
+		            'theme_location'  => 'header__top-right_menu',
+		            'menu'            => '',
+		            'container'       => false,
+		            'fallback_cb'     => 'wp_page_menu',
+		            'items_wrap'      => '%3$s',
+	            ] );
+	            ?>
             </ul>
         </div>
     </nav>
@@ -84,7 +96,7 @@
 
     <div class="header__bottom">
         <div class="header__container">
-            <ul class="header__bottom-menu">    
+            <ul class="header__bottom-menu">
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Кухни</a></li>
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Гостинные</a></li>
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Спальни</a></li>

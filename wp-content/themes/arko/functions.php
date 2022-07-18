@@ -21,8 +21,38 @@ if (!function_exists('arko_mebel_setup')) :
 			)
 		);
 		register_nav_menus( [
-			'header_menu' => 'header__top-menu',
+			'header__top-left_menu' => 'Меню в шапке сверху слева',
+			'header__top-right_menu' => 'Меню в шапке сверху справа',
 		] );
+		add_filter('nav_menu_css_class', 'filter_header__top_left_menu', 10 , 4);
+		function filter_header__top_left_menu( $classes, $item, $args, $depth) {
+			if ($args->theme_location === 'header__top-left_menu') {
+				$classes = [
+					'header__top-item',
+					'header__top-item_lvl_' . ($depth + 1)
+
+				];
+			}
+			if ($item->current) {
+				$classes[] = 'header__top-item--active';
+			}
+			return $classes;
+		}
+		add_filter('nav_menu_css_class', 'filter_header__top_right_menu', 10 , 4);
+		function filter_header__top_right_menu( $classes, $item, $args, $depth) {
+			if ($args->theme_location === 'header__top-right_menu') {
+				$classes = [
+					'header__top-item',
+					'header__top-item_lvl_' . ($depth + 1)
+
+				];
+			}
+			if ($item->current) {
+				$classes[] = 'header__top-item--active';
+			}
+			return $classes;
+		}
+
 	}
 endif;
 add_action('after_setup_theme', 'arko_mebel_setup');
