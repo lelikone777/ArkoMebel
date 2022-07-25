@@ -149,36 +149,49 @@ header .header__button-counter {
 }
 header .header__bottom {
   background: #A8D1E7;
+  font-family: "PTSans-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1D1818;
+  text-transform: uppercase;
 }
 header .header__bottom-menu {
-  width: 87%;
+  flex-basis: 87%;
+  flex-shrink: 1;
+  padding-right: 45px;
 }
-header .header__bottom-item {
+header .header__bottom-static {
   display: flex;
-  flex: 1;
+  flex-shrink: 0;
+  align-items: center;
+  color: #ffffff;
+  background: #384685;
+  border-radius: 5px;
+  min-height: 60px;
+}
+header .header__bottom-static_item {
+  display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 191px;
+  height: 100%;
+}
+header .header__bottom-static_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   width: 100%;
 }
 header .header__bottom-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "PTSans-Bold", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  color: #1D1818;
-  text-transform: uppercase;
   min-height: 60px;
   width: 100%;
 }
 header .header__bottom-link:hover {
   color: #999999;
-}
-header .header__bottom-link.active {
-  color: #ffffff;
-  background: #384685;
-  border-radius: 5px;
 }
 
 /*# sourceMappingURL=arko.css.map */

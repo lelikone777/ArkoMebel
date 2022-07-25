@@ -104,7 +104,9 @@
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Шкафы-купе</a></li>
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Детские</a></li>
                 <li class="header__bottom-item"><a href="#" class="header__bottom-link">Диваны</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link active">Где посмотреть</a></li>
+            </ul>
+            <ul class="header__bottom-static">
+                <li class="header__bottom-static_item"><a href="#" class="header__bottom-static_link">Где посмотреть</a></li>
             </ul>
         </div>
     </div>

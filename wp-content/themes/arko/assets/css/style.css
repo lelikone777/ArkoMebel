@@ -1,0 +1,5 @@
+:root {
+    --menu-width: 87%; /* Width of menu */
+    --items: 7; /* Number of items you have */
+    --item-width: calc(var(--menu-width) / var(--items));
+}
