@@ -97,16 +97,235 @@
     <div class="header__bottom">
         <div class="header__container">
             <ul class="header__bottom-menu">
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Кухни</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Гостинные</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Спальни</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Прихожие</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Шкафы-купе</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Детские</a></li>
-                <li class="header__bottom-item"><a href="#" class="header__bottom-link">Диваны</a></li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Кухни</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Гостинные</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Спальни</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Прихожие</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Шкафы-купе</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Детские</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="header__bottom-item">
+                    <div class="header__bottom-text">
+                        <a href="#" class="header__bottom-link">Диваны</a>
+                    </div>
+                    <ul class="header__bottom-submenu">
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Модульные кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Готовые комплекты</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Маленькие кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Угловые кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Кухонные уголки</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Столы кухонные</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Стулья для кухни</a>
+                        </li>
+                        <li class="header__bottom-submenu_item">
+                            <a href="" class="header__bottom-submenu_link">Комплектующие</a>
+                        </li>
+
+                    </ul>
+                </li>
             </ul>
             <ul class="header__bottom-static">
-                <li class="header__bottom-static_item"><a href="#" class="header__bottom-static_link">Где посмотреть</a></li>
+                <li class="header__bottom-static_item">
+                    <a href="#" class="header__bottom-static_link">Где посмотреть</a></li>
             </ul>
         </div>
     </div>

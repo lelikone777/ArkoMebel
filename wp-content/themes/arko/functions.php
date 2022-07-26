@@ -63,8 +63,8 @@ add_action( 'wp_enqueue_scripts', 'enqueue_arko_style' );
 function enqueue_arko_style() {
 	wp_enqueue_style('reset', get_template_directory_uri() . '/assets/css/reset.css', 'style' );
 	wp_enqueue_style('font-awesome', get_template_directory_uri() . '/libs/font-awesome.all.css');
-	wp_enqueue_style('arko', get_template_directory_uri() . '/assets/css/arko.css');
 	wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/style.css');
+	wp_enqueue_style('arko', get_template_directory_uri() . '/assets/css/arko.css');
 
 //	wp_enqueue_script( 'yandex-api', 'https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=4555d27e-14f7-41ba-b7c9-74b6492680a6');
 	wp_enqueue_script( 'font-awesome', get_template_directory_uri() . '/libs/font-awesome.all.js', '', '', 'true');

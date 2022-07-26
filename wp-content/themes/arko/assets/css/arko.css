@@ -156,9 +156,66 @@ header .header__bottom {
   text-transform: uppercase;
 }
 header .header__bottom-menu {
-  flex-basis: 87%;
+  flex-basis: var(--menu-width);
   flex-shrink: 1;
-  padding-right: 45px;
+  transform-style: preserve-3d;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  perspective: 2000px;
+  flex-wrap: wrap;
+}
+header .header__bottom-item {
+  transform-style: preserve-3d;
+  flex-grow: 1;
+  display: flex;
+  perspective: 200px;
+}
+header .header__bottom-item:hover .header__bottom-submenu {
+  opacity: 1;
+  margin-left: 0;
+  pointer-events: all;
+  clip-path: inset(0 0 0 0);
+}
+header .header__bottom-text {
+  height: 100%;
+}
+header .header__bottom-link {
+  height: 100%;
+}
+header .header__bottom-link-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  width: 100%;
+}
+header .header__bottom-submenu {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  top: 2em;
+  color: rgba(0, 0, 0, 0.5);
+  min-width: 191px;
+  width: 15em;
+  pointer-events: none;
+  z-index: 999;
+  margin-left: -5em;
+  clip-path: inset(0 10em 10em 15em);
+  opacity: 0;
+  font-weight: initial;
+  padding: 1.5em;
+  transition: all 0.25s ease-out, opacity 0.25s ease-in, margin-left 0.25s ease-out, clip-path 0.15s ease-out;
+}
+header .header__bottom-submenu_item:not(:last-child) {
+  margin-bottom: 20px;
+}
+header .header__bottom-submenu_link {
+  font-size: 18px;
+  line-height: 23px;
+  color: #1D1818;
+  text-transform: capitalize;
 }
 header .header__bottom-static {
   display: flex;
@@ -182,16 +239,6 @@ header .header__bottom-static_link {
   justify-content: center;
   height: 100%;
   width: 100%;
-}
-header .header__bottom-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 60px;
-  width: 100%;
-}
-header .header__bottom-link:hover {
-  color: #999999;
 }
 
 /*# sourceMappingURL=arko.css.map */
